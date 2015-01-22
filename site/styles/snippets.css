@@ -1,0 +1,51 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#996206;
+}
+#tabContainer{
+	color:#FFFFFF;
+	height:300px;
+}
+#tabContainer li{
+	position:relative;
+	float:left;
+	width:100px;
+	list-style:none;
+	cursor:pointer;
+}
+#tabContainer li span{
+    background-image:url("../images/spriteMenuSplice.png");
+    background-position:-13px -12px;
+    color:#CCCCCC;
+	font-size:0.9em;
+    display:inline-block;
+	border-radius:5px;
+    text-align:center;
+    width:79px;
+	height:23px;
+}
+#tabContainer li span:hover{
+    background-position:-107px 26px;
+	color:#FFFFFF;
+}
+#tabContainer dl{
+	position:relative;
+	left:20px;
+	margin:0;
+	
+}
+#tabContainer dl dt{
+	background-color:#000099;
+	width:150%;
+	white-space:nowrap;
+}
+#tabContainer dl dd{
+	background-color:#0000FF;
+	position:relative;
+	left:-10px;
+	width:195%;
+	white-space:nowrap;
+}
+#frm0{
+	clear:left;
+}

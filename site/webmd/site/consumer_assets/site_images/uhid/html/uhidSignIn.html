@@ -1,0 +1,59 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />	
+	<title>UHID Sign In Page Medscape Physician</title>
+	<link rel="stylesheet" type="text/css" href="http://css.webmd.com/dtmcms/live/webmd/PageBuilder_Assets/CSS/Flexible_Layout_CSS/Runtime/2_column_layout_harmony10.css" />
+	<link rel="stylesheet" type="text/css" href="../css/UHIDSignInPhysician.css" />
+	<script type="text/javascript" src="http://img.webmd.com/dtmcms/live/webmd/PageBuilder_Assets/JS/scripts362.js"></script>			
+</head>
+<body>
+	<div id="container" class="container">
+		<img id="imgHeaderBranding" alt="Health care professional" class="imgHeaderBranding block" src="../images/webmdConnect.png" />
+		<section class="containerForm block center">
+			<div class="imgLeft imgPhysician floatLeft block desktop">&#160;</div>
+			<form id="formUhid" class="formUhid floatLeft" action="JavaScript:console.log('TODO: Define Form Action')">
+				<fieldset class="borderFormPartition top">
+				<img alt="Medscape" class="physician medScapeLogo block" src="../images/medScapeLogo.png" />				
+					<div class="formCaption block clear">
+						<span class="physician block webConnectGray">Sign in to WebMD Connect</span>
+						<span class="physician block">with your Medscape account:</span>
+						<span class="consumer block">Sign in with your WebMD account:</span>
+					</div>
+					<input id="userNamePhysician" class="physician block center" type="text" placeholder="Username" />
+					<input id="emailConsumer" class="consumer block center" type="text" placeholder="Email Address" />
+					<input id="passwordPhysician" class="physician block center" type="password" placeholder="Password" />
+					<input id="passwordConsumer" class="consumer block center" type="password" placeholder="Password" />
+					<button id="btnSigninPhysician" class="physician webmdBtn btnMedscapeSignin block center" type="submit" value="Sign in with Medscape">Sign in with Medscape</button>
+					<button id="btnSigninConsumer" class="consumer webmdBtn btnMedscapeSignin block center" type="submit" value="Sign in with Medscape">Sign in</button>
+					<ul class="containerLineItem">
+						<li class="checkBox block floatLeft"><input type="checkbox" class="floatLeft block" checked="checked" value="Remember me" /><label class="floatLeft">Remember me</label></li>
+						<li class="block floatRight clearRight"><a href="#TODO">Forgot password?</a></li>
+						<li class="physician block floatRight clearRight"><a href="#TODO">Forgot username?</a></li>
+						<li class="block floatRight clearRight"><a href="#TODO">Need help signing in?</a></li>
+					</ul>
+				</fieldset>
+				<fieldset class="physician borderFormPartition">
+					<div class="btnContainer clear">
+						<button class="webmdBtn webmdBtnConnectLightBlue" type="button" value="Sign in with WebMD">Sign in with WebMD</button>
+						<button class="webmdBtn webmdBtnConnectLightBlue" type="button" value="Create WebMD Account">Create WebMD Account</button>
+					</div>
+				</fieldset>
+				<fieldset class="consumer borderFormPartition">
+					<div class="btnContainer clear">
+						<a class="uhidGray" type="button" href="#TODO">Don't have an account?</a>
+						<button class="webmdBtn webmdBtnConnectLightBlue" type="button" value="Create WebMD Account">Create Account</button>
+					</div>
+				</fieldset>												
+			</form>
+		</section>
+		<footer class="footer clear">
+			<div id="logo" class="logo">
+              <a onclick="sl(this,'','logo');" href="http://www.webmd.com/www/default.htm"><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/usability/2012/LBi_Masthead/logo_trans.png" class="logo_rdr" alt="WebMD: Better information. Better health."></a>
+            </div>
+		</footer>		
+	</div>
+	<script type="text/javascript" src="../js/pageStateSignIn.js?version=3.3"></script>
+</body>
+</html>

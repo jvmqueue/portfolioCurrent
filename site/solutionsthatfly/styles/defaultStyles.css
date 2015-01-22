@@ -1,0 +1,82 @@
+body
+{
+background-image:url(../images/background.jpg);
+}
+div#LayerBody
+{
+position:absolute; 
+left:99px; 
+top:50px; 
+width:756px; 
+height:800px;
+background-color:#f4e2bc;
+visibility:visible;  
+z-index:1; 
+border: 3px none #949494; 
+border-style:ridge;
+
+}
+table#navBar
+{
+	background-image:url(../images/tabSmallRectangle5.png);
+	position:relative;
+	top:7em;
+	z-index:2;
+	overflow: visible;
+}
+td.navAnchor a:link
+{
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+font-variant:small-caps;
+letter-spacing:10px;
+}
+
+/* Begin anchor rules */
+table tr a:hover td
+{
+cursor:hand;
+}
+
+/* End anchor rules */
+
+/* Begin Unordered List style */
+li.bulItem
+{
+list-style-image:url(../images/bulletBwnish.png);
+}
+/* style spans elments nested in an unordered list */
+span.spanInList
+{
+font-family:Arial, Helvetica, sans-serif;
+color:#666666;
+position:relative;
+left:10px;
+top:-4px;
+}
+/* End Unordered List style */
+/* Bottom Nav Controls */
+div#bottommenu 
+{
+position:relative;
+width:759px;
+height:20px;
+top:-5px;
+left:-3px;
+background:#444;
+font-size:x-small;
+text-align:center;
+color:#aaa
+}
+div#bottommenu a:hover
+{
+text-decoration:underline;
+}
+div#bottommenu a
+{
+color:#aaa;
+text-decoration:none;
+}
+
+

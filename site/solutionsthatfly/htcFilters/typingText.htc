@@ -1,0 +1,68 @@
+<event name="onTypeDone" id="TypeDone"/>
+<property name="letterDelay" />
+<property name="offStart" />
+<method name="typeo" />
+<method name="doType" />
+<method name="doPlay" />
+<attach event="ondocumentready" handler="startOnLoad" />
+<script>
+function startOnLoad() {
+        if (offStart != null) {
+                if (offStart == "") offStart = 0;
+                typeo(offStart);
+        }
+}
+function typeo(internalPause) {
+		/* letterDelay times the rendering of individual characters, the lower the value, the faster characters render */
+        if (letterDelay == null) letterDelay = 2;
+        element.style.visibility = "hidden";
+        if (internalPause == "") internalPause = 0;
+        window.setTimeout(element.uniqueID + ".doType()", internalPause);
+		return;
+}
+                element.chri = 0;
+                element.txt = element.innerHTML;
+                element.lng = element.txt.length;
+                element.msg = "";
+
+function doType() {
+                element.innerHTML = "";
+                for (element.i = 0; element.i < element.lng; element.i++) {
+                        chr = element.txt.charAt(element.i)      
+                        aTag = "";
+                        if (chr == "<") {
+                                for (element.i; chr != ">"; element.i++) {
+                                        chr = element.txt.charAt(element.i);
+                                        aTag = aTag + chr;
+                                }                                        
+                                element.msg = element.msg + aTag;
+                                element.i--;
+                        }                            
+                        if (chr != ">") {
+                                element.msg = element.msg + "<span style='visibility: hidden' id=" + element.uniqueID + "_let>" + chr + "</span>";
+                                element.chri++;
+                        } 
+                }
+                doPlay();
+}
+function doPlay() {        
+                if (element.cmpl == null) {
+                        element.innerHTML = element.msg;
+                        element.cmpl = element.chri;
+                        element.chri = 0;
+                        element.style.visibility = "visible";
+                }
+                if (element.chri < element.cmpl) {
+                        t = eval("element.document.all." + element.uniqueID + "_let[" + element.chri + "]");
+                        t.style.visibility = "visible";
+                        element.chri++;
+                        window.setTimeout(element.uniqueID + ".doPlay()", letterDelay);
+                }
+                if (element.chri == element.cmpl) {
+                        element.innerHTML = element.txt;
+                        TypeDone.fire();
+                        return;
+                }
+}
+</script>
+

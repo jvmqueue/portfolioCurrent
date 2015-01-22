@@ -1,0 +1,39 @@
+body{
+	background-color:#FFFFCC;
+}
+#content div{
+	position:absolute;
+	font-size:0.9em;
+	line-height:1.6em;
+}
+
+#content ul{
+	margin:0;
+}
+
+li
+{
+	list-style-image:url(../images/bulletLogoArrow.gif);
+	padding-bottom:5px;
+	font-size:0.8em;
+}
+.inline{
+	display:inline-block;
+}
+
+#content span.imgNewWin{
+	display:inline-block;
+	color:#F78269;
+	font-weight:bold;
+	font-size:10px;
+	font-family:Verdana, sans-serif;
+	padding:8px 38px 24px 31px;
+	width:80px;
+	height:1px;	
+}
+.imgNewWin{
+	background-image:url(../images/btnGrayOrangeArrowA.png);
+	background-repeat:no-repeat;
+	background-position:0px -1px;
+	border-radius:23px;
+}

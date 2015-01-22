@@ -1,0 +1,78 @@
+body{
+	background-image:url("../images/bckGrdPageBluish.jpg");
+}
+form{
+	width:55%;
+	min-width:720px;
+}
+form fieldset, form fieldset button, form fieldset input, form fieldset label, form select, #bookdata0 img{
+	border-radius:5px;
+	box-shadow:5px 6px 12px #CCCCCC;
+}
+form fieldset, form fieldset button, form fieldset input{
+	color:#1C356B;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+form fieldset button:hover{
+	color:#DBDEE5;
+	background-color:#1C356B;
+	border-radius:5px;
+	cursor:pointer;
+}
+fieldset div p{
+	margin:0;
+	border:0;
+}
+form fieldset div{
+	margin:19px 5px;
+	padding:5px 0;
+	width:380px;
+}
+#bookdata0{
+	margin:-87px 0 0 0;
+	width:300px;
+	height:400px;
+}
+.labelLeft{
+	width:164px;
+}
+.floatRight{
+	float:right;
+}
+.floatLeft{
+	float:left;
+}
+.clear{
+	clear:both;
+}  
+/* Begin JS functionality */
+#warning{
+	visibility:hidden;
+}
+#warning.warning{
+	color:#FF0000;
+	font-weight:bold;
+	width:1px;
+	visibility:visible;
+}
+.exception{
+	color:#FF0000;
+	font-weight:bold;
+	width:1px;
+	visibility:visible;	
+}
+#exception0{
+	visibility:hidden;
+}
+#exception0.warning{
+	color:#FF0000;
+	font-weight:bold;
+	width:1px;
+	visibility:visible;
+}
+.exception:before{
+	content:"* ";
+	display:inline;
+}
+/* End JS functionality */

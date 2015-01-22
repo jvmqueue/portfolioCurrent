@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<portfolios>
+	<portfolio ordinal="0" name="Home" backgroundImage="images/logoGlenn.gif" backgroundColor="#FFFFCC">
+		<topHeader color="#000000">Thank you for showing interest in my portfolio.</topHeader>
+		<iframe src="iframeHome.html">&#160;</iframe>
+		<technique>
+			<li>This is XML driven</li>
+			<li>The middle container is an iframe which gets its source from a row source attribute defined in xml</li>
+			<li>All events are assigned to listeners via Prototype.js</li>
+			<li>All page data controlled via AJAX</li>
+			<li>Composition via Prototype.js Class.create</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="1" name="Resume" backgroundImage="images/logoGlenn.gif" backgroundColor="#FFFFFF">		
+		<topHeader color="#000000">My Resume</topHeader>
+		<iframe src="http://www.jvmenterprise.net/resume/">&#160;</iframe>
+		<technique>
+			<li>Using a control that will download resume as Word or PDF</li>
+			<li>External stylesheet that defines layout / styles</li>
+			<li>Initially saved a Word document as HTML</li>
+			<li>Cleaned-up Word's HTML and translated the styles to an external sheet</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="2" name="Thirty Three Circle" backgroundImage="images/threeThirtyThree.jpg" backgroundColor="#7D767E">		
+		<topHeader color="#CCCCFF">ThreeThirtyThree Professional Artist Image Gallery</topHeader>
+		<iframe src="http://www.thirtythreecirclethree.com/Gallery.html">&#160;</iframe>
+		<technique>
+			<li>Using object literals to define page content</li>
+			<li>The Gallery page is the most sophisticated page on the site</li>
+			<li>The Gallery page rendors swatches relative to a custom javascript generator</li>
+			<li>Clicking on a swatch opens the repective image in a named window</li>
+			<li>If the image window is opened, clicking on a swatch simply repopulates the window</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="3" name="Branddon Young" backgroundImage="images/logoBrandon.jpg" backgroundColor="#FFFFFF">		
+		<topHeader color="#000000">BrandonCaddowYoung Professional Golfer</topHeader>
+		<iframe src="http://www.brandoncaddowyoung.com">&#160;</iframe>
+		<technique>
+			<li>In Development</li>
+			<li>Entry page complete</li>
+			<li>Using CSS external files to control presentation</li>
+			<li>Using conditional comments to adapt to IE presentation anomolies</li>
+			<li>Navigation behavior controlled by CSS Sprite technology</li>
+			<li>Initial page width set by client-side scripts</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="4" name="Solutions That Fly" backgroundImage="images/logoSolutionsThatFly.png" backgroundColor="#E3CCA2">		
+		<topHeader color="#333333">SolutionsThatFly is in development. Timelines, Templates, and CSS</topHeader>
+		<iframe src="http://www.jvmenterprise.net/portfolio/frameSolutionsThatFly/index.htm">&#160;</iframe>
+		<technique>
+			<li>Image transperancy using png filter, this is accomplished through CSS</li>
+			<li>Once entered we use Dreamweaver's timelines to emmulate a flying machine</li>
+			<li>The intention is to develop a site wide template</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="5" name="Self Scoring Quiz" backgroundImage="images/logoEducation.gif" backgroundColor="#416EB1">		
+		<topHeader color="#CCFFCC">Education: HTML, CSS, JavaScript, DOM</topHeader>
+		<iframe src="http://www.jvmenterprise.net/education/index.html">&#160;</iframe>
+		<technique>
+			<li>Content on single page using layers, div elements</li>
+			<li>JavaScript custom user objects defining solution sets</li>
+			<li>Clicking "Score Quiz" displays images relative to answers</li>
+			<li>Clicking on "Score Quiz" populates an Array that defines help URLs</li>
+			<li>Selecting a tab hides the layer and shows the associated layer</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="6" name="Visage of Paul" backgroundImage="images/logoVisagePaul.gif" backgroundColor="#587991">		
+		<topHeader color="#CCCCCC">Paul's page is a completed project using hide show layers</topHeader>
+		<iframe src="http://www.jvmenterprise.net/paul/index.html">&#160;</iframe>
+		<technique>
+			<li>Content is defined in a single page</li>
+			<li>Playing a hide/show method</li>
+			<li>This allows the page to be rendered at one time, without time-delay</li>
+			<li>Clicking on a tab hides current layer then unhides the associated layer</li>
+			<li>Using HTC filters here to render semi-transparency</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="7" name="Loving Expressions" backgroundImage="images/logoLovingExpressions.gif" backgroundColor="#B2C1DD">		
+		<topHeader color="#333333">Loving Expressions developed from PDF model</topHeader>
+		<iframe src="http://www.jvmenterprise.net/lovingexp/index.htm">&#160;</iframe>
+		<technique>
+			<li>Client requested basic functionality</li>
+			<li>The intentions were to come up with basic navigation</li>
+			<li>Basic rollovers are programmed using JavaScript</li>
+			<li>Client sent PDF. Images were stripped and some were redesigned, using PhotoShop</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="8" name="PGA Tour" backgroundImage="images/logoPgatour.png" backgroundColor="#195790">		
+		<topHeader color="#FFFFCC">PGA Tour Company Microsite</topHeader>
+		<iframe src="http://www.pgatour.com/company/about_us.html">&#160;</iframe>
+		<technique>
+			<li>Used NotePad++ exclusively for microsite templ</li>
+			<li>Used JavaScript to control menues</li>
+			<li>Used PhotoShop to slice designers mock-up</li>
+			<li>Used CVS for version control</li>
+			<li>Used Putty for telnet</li>
+			<li>External CSS files used to control presentation</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="9" name="Lee Beasley" backgroundImage="images/logoLeeBeasley.gif" backgroundColor="#CCCCCC">		
+		<topHeader color="#333333">Lee Beasley basic JavaScript functions defined</topHeader>
+		<iframe src="http://www.jvmenterprise.net/leetest/index.htm">&#160;</iframe>
+		<technique>
+			<li>JavaScript using delays, setTimeout using recursion</li>
+			<li>Lee Beasley's name is rendered using individual images</li>
+			<li>Correction marks render using 10 different images for each correction mark</li>
+			<li>Only client-side scripts requested</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="10" name="Certificates" backgroundImage="images/logoCertificates.gif" backgroundColor="#D8C5A5">		
+		<topHeader color="#333333">Certificates/Degrees</topHeader>
+		<iframe src="http://www.jvmenterprise.net/certificates/index.html">&#160;</iframe>
+		<technique>
+			<li>CSS tableless layout</li>
+			<li>Javascript custom user objects and properties</li>
+			<li>Javascript for image arrays, preloading images</li>
+			<li>Javascript for DOM manipulation, replacing image source values</li>
+		</technique>
+	</portfolio>
+</portfolios>

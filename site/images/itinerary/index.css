@@ -1,0 +1,81 @@
+body{
+  font-family:Verdana, Arial, Sans-serif;
+  font-size:13px;
+}
+#container{
+  position:relative;
+  margin:0;
+  padding-top:150px;
+}
+#leftTopSprite{
+  position:relative;
+  top:0;
+  left:0;
+  margin:0;
+  border-radius:5px;
+  width:87px;
+  height:90px;
+  background-image:url(goHeadSprite.png);
+  background-repeat:no-repeat;
+}
+#leftTopSprite:hover{
+  background-position:0px -127px;
+}
+.docImage{
+  position:absolute;
+  right:0;
+  top:0;
+  z-index:0;
+  display:block;
+  width:220px;
+  height:155px;
+  opacity:0.3;
+  margin-right:420px;
+}
+table{
+  margin-bottom:10px;
+  border:solid 1px #CCCCCC;
+  border-radius:5px;
+  box-shadow:5px 4px 5px #CCCCCC;
+  width:80%;
+  min-width:633px;
+  clear:both;
+}
+tbody h4{
+  margin:0;
+  border:0;
+  width:80%;
+  height:20px;
+}
+tr th{
+  text-align:left;
+}
+tr th, tr td{
+  display:inline-block;
+  width:13%;
+}
+.bold{
+  font-weight:bold;
+}
+.noWrap{
+  white-space:nowrap;
+}
+td.colour{
+  display:inline-block;
+  width:71%;
+  height:20px;
+  border-radius:5px;
+  box-shadow:5px 4px 5px #CCCCCC;
+}
+td.darkBlue{
+  background-color:#00008B;
+}
+td.darkSlateBlue{
+  background-color:#483D8B;
+}
+td.dodgerBlue{
+  background-color:#1E90FF;
+}
+td.marianBlue{
+  background-color:#2258BF;
+}

@@ -1,0 +1,361 @@
+
+	font-family: sans-serif; 
+}
+.uhidGray{
+	color:#CCC;
+}
+
+
+.formUhid input.error, .formUhid input[type=password].error{
+	color:red;
+}
+.formUhid input.error::-webkit-input-placeholder{
+	color:red;
+}
+
+.formUhid input.error:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+    color:#999;
+    opacity:1;
+}
+.formUhid input.error::-moz-placeholder{ /* Mozilla Firefox 19+ */
+    color:#999;
+    opacity:1;
+}
+.formUhid input.error:-ms-input-placeholder{ /* Internet Explorer 10+ */
+    color:#999;
+}
+
+.webConnectGray { 
+	color: rgb(34, 34, 34); 
+}
+.container { 
+	margin:20px auto;
+	width:100%;
+	min-width:1270px; 
+}
+img.medScapeLogo {
+ width: 135px; 
+ margin: 20px auto;
+}
+.floatLeft { 
+	float: left;
+}
+.colLeft{
+	width:40%;
+}
+.block { 
+	display: block; 
+}
+.center {
+ margin: auto; 
+}
+.containerForm {
+ width: 62%; 
+ min-width: 710px; 
+ height: 300px; 
+}
+.imgHeaderBranding {
+ margin: 20px auto; 
+ width: 24%; 
+}
+.formCaption { 
+	margin: 10px auto; 
+	text-align: center; 
+}
+.clear {
+ clear: both; 
+}
+.clearRight {
+ clear: right; 
+}
+.checkBox input[type="checkbox"] {
+ margin-top: 4px; 
+ width: 16%; 
+ height: 17px; 
+}
+.containerLineItem { 
+	font-size:0.8em;
+	margin:10px auto; 
+	width:83%; 
+	min-width:275px; 
+	text-align:left;
+}
+.containerLineItem li{ 
+	display:inline-block;
+	margin-left:3%;
+	padding-left:4%;
+	width:40%;  
+	text-align:left;
+}
+.checkBox label {
+ width: 32%; 
+ display: inline-block; 
+ white-space: nowrap; 
+ padding: 0px 0px 0px 3px; 
+}
+.containerForm .formUhid {
+ margin-left: 1em; 
+ width:49.2%; 
+ height:417px;
+ min-width: 200px; 
+}
+.webmdBtn.btnMedscapeSignin { 
+	margin-top: 0px; 
+	width: 70.5%; 
+	color: rgb(255, 255, 255); 
+	background-color: rgb(13, 73, 109); 
+}
+.webmdBtn.btnMedscapeSignin.consumer{ 
+	color:#FFF; 
+	background-color:#F67F00; 
+}
+.formUhid input{
+	color:#000;
+	margin-bottom:0.5em; 
+	border-radius:5px; 
+	padding:0px 0px 0px 15px; 
+	width:70%; 
+	height:42px; 
+}
+.formUhid .borderFormPartition {
+ border: 1px solid rgb(204, 204, 204); 
+}
+fieldset{
+ box-shadow:5px 1px 18px #DDDDDD; 
+}
+.borderFormPartition.top {
+ 
+ padding-bottom:0.85em;
+}
+.formUhid .btnContainer {
+ margin: auto auto auto 12%; 
+ width:98%; 
+ min-width:384px;
+}
+.webmdBtn.webmdBtnConnectLightBlue { 
+	display: inline-block; 
+	margin-right:1.7%;
+	margin-left:1.7%;
+	width: 38%; 
+	min-width:155px; 
+	background-color: rgb(18, 149, 204); 
+	background-image:url(../images/arrowWhitePointRight.png);
+	background-repeat:no-repeat;
+	background-position:89% center;
+	text-align:left;
+}
+.footer .logo {
+ margin: 0px 0px 0px 15%; 
+ padding-top: 60px; 
+}
+/* ***** Begin Consumer page state ***** */
+.jsFormConsumer .borderFormPartition.top{
+	padding-bottom:3.0em;
+}
+.physician.hide{
+	display: none;
+}
+
+
+.consumer.show{
+	display:block;
+}
+.consumer.hide{
+	display:none;
+}
+.imgLeft{
+ width: 48.2%;
+ min-width: 200px;
+ height: 417px;
+ background-repeat: no-repeat;
+}
+.imgPhysician{
+ background-image:url(../images/webConnectPhysicianLeft.png);
+}
+.imgConsumer{
+	background-image:url(../images/webConnectConsumerLeft.png);
+}
+
+/* ***** End Consumer page state ***** */
+
+
+/* ***** Begin Tweeks for Physician Sign-up page ***** */
+.containerMobile{
+	display:none;
+}
+.checkBox label.signup {
+ width:80%; 
+}
+.formUhid input.birthday{
+ width:26.5%; 
+}
+.signup .imgPhysician, .signup .imgConsumer{
+ width:100%;
+}
+.colLeftText ul{
+	list-style:disc;
+	margin-left:5.5%;
+}
+.formUhid.signup label{
+	margin-left:15%;
+}
+.dateOfBirthFields{
+	margin-left:15%;
+}
+.physician.header.signup{
+	margin:10px auto;
+	width:57%;
+	min-width:250px; 	
+}
+.physician.signup .colLeftText{
+	margin:auto;
+	width:88%;
+}
+.physician.signup .colLeftText h4{
+	margin:2.3em auto 1.0em auto;
+}
+.physician.signup .colLeftText li{
+	margin:0.8em auto;
+}
+.checkBox label.signup{
+	margin-left:3%;
+}
+.signup .physician.webmdBtn{
+	margin-top:5.0em;
+	padding-right:1em;
+	background-color:#F67F00;
+	background-image:url(../images/arrowWhitePointRight.png);
+	background-repeat:no-repeat;
+	background-position:95% center;
+	text-align:left;
+}
+.formUhid.signup .btnContainer label{
+	margin:0;
+}
+.signup .physician .btnContainer{
+	padding-right:2.0em;
+	margin-left:10%;
+}
+.signup .borderFormPartition.signup{
+	margin-bottom:0;
+	padding-bottom:3.0em;
+}
+/* ***** End Tweeks for Physician Sign-up page ***** */
+
+
+/* ***** Begin Mobile for Physician Sign-up ***** */
+
+/* tablet landscape */
+@media screen and (max-width: 980px) {
+	
+}
+/* mobile having landscape mode */
+@media screen and (max-width: 640px){
+	html, body{
+		width:300px;	
+		margin:0 auto;
+		padding:0;		
+	}
+
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		
+	}	
+	fieldset{
+		margin:auto;
+		box-shadow:none;
+	}
+	h3{
+		font-size:1.0em;
+	}
+	.formUhid.signup label{
+		margin-left:0;
+	}
+	.formUhid input{
+		width:100%; 
+	}
+	.dateOfBirthFields{
+		margin-left:0;
+	}
+	.formUhid input.birthday{
+		width:31.5%; 
+	}	
+	.container{ 
+		margin:2px auto;
+		width:95%;
+		min-width:270px; 
+	}
+	.imgHeaderBranding{
+	 margin:20px auto; 
+	 width:54%; 
+	}
+	.containerLineItem { 
+		font-size:0.6em; 
+	}
+	.physician.header.signup{
+		margin:10px auto;
+		width:57%;
+		min-width:185px; 	
+	}
+	.containerForm{
+		width:62%; 
+		min-width:300px; 
+		height:300px; 
+	}
+	.formUhid .btnContainer{
+		margin:auto;
+		width:98%; 
+		min-width:277px;
+	}
+	.formUhid .btnContainer a[type="button"]{
+		float:left;
+		display:inline-block;
+		width:47%;
+		text-align:center;
+		font-size:0.9em;
+		padding-top:0.5em;
+	}
+	.formUhid .btnContainer .webmdBtn{
+		font-size:0.6em;
+		width:45%;
+	}
+	.containerForm .formUhid{
+		margin-left:0;
+		margin:auto; 
+		min-width:150px; 
+	}
+	.formUhid .borderFormPartition {
+		border:0; 
+	}
+	.consumer.borderFormPartition{
+		margin-top:200px;
+		background-color: #FFF;
+		box-shadow: 5px 1px 18px #DDDDDD;
+	}
+	.signup .physician.webmdBtn{
+		background-image:url("");
+		text-align:center;
+	}
+	footer{
+		display:none;
+	}
+	/* Begin Consumer Signin Mobile */		
+	.webmdBtn.btnMedscapeSignin { 
+		width:100%; 
+	}
+	.webmdBtn.webmdBtnConnectLightBlue { 
+		width:17%; 
+		min-width:89px; 
+		background-color: rgb(18, 149, 204); 
+		background-image:url("");
+		text-align:center;
+	}
+}
+/* End Consumer Signin Mobile */
+
+@media screen and (max-width: 480px) {
+
+}
+/* ***** End Mobile for Physician Sign-up ***** */

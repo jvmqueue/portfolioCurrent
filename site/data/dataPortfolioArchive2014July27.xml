@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<portfolios>
+	<portfolio ordinal="0" name="Home" backgroundImage="images/logoGlenn.gif" backgroundColor="#FFFFCC">
+		<topHeader color="#000000">Thank you for showing interest in my portfolio.</topHeader>
+		<iframe src="iframeHome.html?version=1">&#160;</iframe>
+		<technique>
+			<li>This is XML driven</li>
+			<li>The middle container is an iframe which gets its source from a row source attribute defined in xml</li>
+			<li>All events are assigned to listeners via Prototype.js</li>
+			<li>All page data controlled via AJAX</li>
+			<li>Composition via Prototype.js Class.create</li>
+			<li>CSS Sprites for button state</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="1" name="Resume" backgroundImage="images/logoGlenn.gif" backgroundColor="#FFFFFF">		
+		<topHeader color="#000000">My Resume</topHeader>
+		<iframe src="/resume/index.html?version=1">&#160;</iframe>
+		<technique>
+			<li>jQuery for DOM Manipulation</li>
+			<li>CSS for presentation</li>
+			<li>XML for data storage</li>
+			<li>AJAX for data retrieval and get scripts</li>
+			<li>Sprite for hover event</li>
+			<li>JSON for code organization</li>				
+			<li>Modal, custom-built for warning dialog</li>
+			<li>Conditional comments for IE fixes</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="2" name="Thirty Three Circle" backgroundImage="images/threeThirtyThree.jpg" backgroundColor="#7D767E">		
+		<topHeader color="#CCCCFF">ThreeThirtyThree Professional Artist Image Gallery</topHeader>
+		<iframe src="http://www.MalaikaZCharbonneau.com/Gallery.html">&#160;</iframe>
+		<technique>
+			<li>XML for page data</li>
+			<li>CSS for presentation</li>
+			<li>jQuery for DOM manipulation and events</li>			
+			<li>AJAX for data retrieval</li>
+			<li>ColorBox JQuery Plugin for Modals</li>
+			<li>The Gallery page renders swatch order relative to a custom javascript generator</li>
+			<li>Clicking on a swatch opens a modal with the respective canvas</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="7" name="NBA Schedule" backgroundImage="images/logoNba.png" backgroundColor="#195790">		
+		<topHeader color="#FFFFCC">NBA Schedule Dynamic Data</topHeader>
+		<iframe src="http://www.NBA.com/nbatv/schedule/">&#160;</iframe>
+		<technique>
+			<li>Translated Prototype.js calls to jQuery.js methods</li>
+      <li>Used Singletons to encapsulate data, methods</li>
+      <li>Built simple sprite for CSS pseudo hover selector</li>
+      <li>Employed AJAX to retrieve JSON data</li>
+      <li>Dynamically built table, translating data from JSON</li>
+      <li>Used Custom event listeners for data available</li>
+		</technique>
+	</portfolio>
+	
+	<portfolio ordinal="9" name="Trapped Inside Games" backgroundImage="images/logoTrappedInsideGaming.png" backgroundColor="#000077">		
+		<topHeader color="#FFFFCC">Trapped Inside Games: New Project, in Development</topHeader>
+		<iframe src="http://www.trappedinsidegames.com/helloworld/site/">&#160;</iframe>
+		<technique>
+			<li>Using JavaScript Design Patterns</li>
+			<li>Composite design pattern used to define XML and HTML hierarchy</li>
+			<li>Dynamic HTML, nodes are appended to DOM. This is not markup</li>
+			<li>Using interfaces for object reuse and loosen dependencies</li>
+		</technique>
+	</portfolio>	
+	
+	<portfolio ordinal="3" name="SpeckWoodInc" backgroundImage="images/speckwoodink.png" backgroundColor="#F1E1BD">		
+		<topHeader color="#000000">Professional Writers Resume</topHeader>
+		<iframe src="http://speckwoodink.com/resume/">&#160;</iframe>
+		<technique>
+			<li>AJAX</li>
+			<li>CSS Flexible Layout</li>
+			<li>Prototype Library to emulate OOP</li>
+			<li>XML controls the pages content via AJAX</li>
+			<li>CSS Sprites for hover animations</li>
+			<li>Three-Tier JavaScript: Generic Request, XML Utility, HTML Utility</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="4" name="Solutions That Fly" backgroundImage="images/logoSolutionsThatFly.png" backgroundColor="#E3CCA2">		
+		<topHeader color="#333333">SolutionsThatFly is in development. Timelines, Templates, and CSS</topHeader>
+		<iframe src="./frameSolutionsThatFly/index.htm">&#160;</iframe>
+		<technique>
+			<li>Image transperancy using png filter, this is accomplished through CSS</li>
+			<li>Once entered we use Dreamweaver's timelines to emmulate a flying machine</li>
+			<li>The intention is to develop a site wide template</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="5" name="Visage of Paul" backgroundImage="images/logoVisagePaul.gif" backgroundColor="#587991">		
+		<topHeader color="#CCCCCC">Paul's page is a completed project using hide show layers</topHeader>
+		<iframe src="/paul/index.html">&#160;</iframe>
+		<technique>
+			<li>Content is defined in a single page</li>
+			<li>Playing a hide/show method</li>
+			<li>This allows the page to be rendered at one time, without time-delay</li>
+			<li>Clicking on a tab hides current layer then unhides the associated layer</li>
+			<li>Using HTC filters here to render semi-transparency</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="6" name="Loving Expressions" backgroundImage="images/logoLovingExpressions.gif" backgroundColor="#B2C1DD">		
+		<topHeader color="#333333">Loving Expressions developed from PDF model</topHeader>
+		<iframe src="/lovingexp/index.htm">&#160;</iframe>
+		<technique>
+			<li>Client requested basic functionality</li>
+			<li>The intentions were to come up with basic navigation</li>
+			<li>Basic rollovers are programmed using JavaScript</li>
+			<li>Client sent PDF. Images were stripped and some were redesigned, using PhotoShop</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="8" name="Lee Beasley" backgroundImage="images/logoLeeBeasley.gif" backgroundColor="#CCCCCC">		
+		<topHeader color="#333333">Lee Beasley basic JavaScript functions defined</topHeader>
+		<iframe src="/leetest/index.htm">&#160;</iframe>
+		<technique>
+			<li>JavaScript using delays, setTimeout using recursion</li>
+			<li>Lee Beasley's name is rendered using individual images</li>
+			<li>Correction marks render using 10 different images for each correction mark</li>
+			<li>Only client-side scripts requested</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="9" name="Certificates" backgroundImage="images/logoCertificates.gif" backgroundColor="#D8C5A5">		
+		<topHeader color="#333333">Certificates/Degrees</topHeader>
+		<iframe src="/certificates/index.html">&#160;</iframe>
+		<technique>
+			<li>CSS tableless layout</li>
+			<li>Javascript custom user objects and properties</li>
+			<li>Javascript for image arrays, preloading images</li>
+			<li>Javascript for DOM manipulation, replacing image source values</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="10" name="Chess" backgroundImage="images/logoChess.png" backgroundColor="#5D8AB3">		
+		<topHeader color="#FFFFCC">Chessboard XML algorithm</topHeader>
+		<iframe src="/chess/">&#160;</iframe>
+		<technique>
+			<li>Convert one-dimensional XML file into two-dimensional XHTML</li>
+			<li>Subclassing via Prototype.js Class.create</li>
+			<li>AJAX for XML data retrieval</li>
+			<li>Queen placement relative to XML flags</li>
+		</technique>
+	</portfolio>	
+	<portfolio ordinal="11" name="Favorite Links" backgroundImage="images/FavoriteLinks.jpg" backgroundColor="#5E88AC">		
+		<topHeader color="#EBF5FE">Technical Links</topHeader>
+		<iframe src="/favoriteLinks/site/">&#160;</iframe>
+		<technique>
+			<li>Swap out XML data file by appending query string - - > project</li>
+      <li>Used CSS for elastic layout</li>
+			<li>Primitive Ajax for link data</li>
+			<li>CSS Sprites for mouse over presentation</li>
+			<li>Caching XML into two-dimensional Array</li>
+			<li>XML file predicts DOM nodes</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="12" name="HTML5 Local Storage" backgroundImage="images/html5TopLeftA.png" backgroundColor="#5C7F30">		
+		<topHeader color="#FFFFFF">HTML5 localStorage</topHeader>
+		<iframe src="/html5/localStorage/">&#160;</iframe>
+		<technique>
+			<li>Local Storage requires conversion of complex JSON to string</li>
+			<li>require.js for lazy loading</li>
+			<li>Interface.js for programmging to an interface, not an implementation</li>
+			<li>Sprites for button events</li>
+			<li>stringify to store JSON to localStorage</li>
+			<li>parseJSON to build DOM from localStorage</li>
+		</technique>
+	</portfolio>
+	<portfolio ordinal="13" name="Design Patterns" backgroundImage="images/proJavaScriptPatterns.png" backgroundColor="#D0AF46">		
+		<topHeader color="#000000">Employ drop-down listener to test encapsulation concept</topHeader>
+		<iframe src="/prodesignBooks/site/">&#160;</iframe>
+		<technique>
+			<li>Only proof of concept</li>
+			<li>require.js for lazy loading</li>
+			<li>Embedded JSON for stubbing-out data</li>
+			<li>Custom Book Library employs concepts of private, public, and privileged members</li>
+		</technique>
+	</portfolio>		
+	<portfolio ordinal="14" name="Fibonacci" backgroundImage="images/prodesignFibonacci.png" backgroundColor="#172C61">		
+		<topHeader color="#DFE2E9">Lazy loading and Namespacing Strategie using Fibonacci Sequence as a Vehicle</topHeader>
+		<iframe src="/prodesignFibonacci/site/">&#160;</iframe>
+		<technique>
+			<li>Only proof of concept</li>
+			<li>require.js for lazy loading</li>
+			<li>Using Recursion for Fibonacci computions</li>
+			<li>Employing Delegation for generic node events</li>
+			<li>Application driven with query strings via custom URL library</li>
+			<li>Friendly navigation employed</li>
+		</technique>
+	</portfolio>				
+	<portfolio ordinal="15" name="Composite Pattern" backgroundImage="images/compositePatternStructure.png" backgroundColor="#030305">		
+		<topHeader color="#DCDCDC">Design Pattern: Composite</topHeader>
+		<iframe src="/patterns/composite/site/">&#160;</iframe>
+		<technique>
+			<li>Building dynamic form using the composite design pattern</li>
+			<li>Using closures having public API</li>
+			<li>Implementing interfaces</li>
+			<li>Using HTML5 Local Storage</li>
+			<li>Using CSS3 transitions</li>
+			<li>Employing Custom Event Listeners for AJAX</li>
+		</technique>
+	</portfolio>					
+	<portfolio ordinal="16" name="HTML5 And OO Patterns" backgroundImage="images/html5Video.png" backgroundColor="#000033">		
+		<topHeader color="#DFE2E9">HTML5 Video and Encapsulation</topHeader>
+		<iframe src="/html5/video/site">&#160;</iframe>
+		<technique>
+			<li>Only proof of concept</li>
+			<li>HTML5 Video</li>
+			<li>Using Bridge Design Pattern</li>
+			<li>Using Custom Utility Library</li>
+			<li>Closures</li>
+		</technique>
+	</portfolio>						
+</portfolios>

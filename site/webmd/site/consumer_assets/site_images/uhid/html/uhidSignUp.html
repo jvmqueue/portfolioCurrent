@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />	
+	<title>UHID Sign In Page Medscape Physician</title>
+	<link rel="stylesheet" type="text/css" href="http://css.webmd.com/dtmcms/live/webmd/PageBuilder_Assets/CSS/Flexible_Layout_CSS/Runtime/2_column_layout_harmony10.css" />
+	<link rel="stylesheet" type="text/css" href="../css/UHIDSignInPhysician.css" />
+	<script type="text/javascript" src="http://img.webmd.com/dtmcms/live/webmd/PageBuilder_Assets/JS/scripts362.js"></script>			
+</head>
+<body>
+	<div id="container" class="container">
+		<img id="imgHeaderBranding" alt="Health care professional" class="imgHeaderBranding block" src="../images/webmdConnect.png" />
+		<section class="containerForm block center">
+			<div id="imageVisitor" class="physician colLeft signup floatLeft desktop">
+				<div class="imgLeft">&#160;</div>
+				<div class="colLeftText">
+					<h4>Leverage the most trusted brand in health to your advantage:</h4>
+					<ul>
+						<li>Control your online professional presence</li>
+						<li>Increase your visibility &#8212;WebMD has over 64 million unique visitors each month</li>
+						<li>Increase your potential ranking in Google, Bing, and Yahoo search results</li>
+					</ul>
+				</div>			
+			</div>
+			<form id="formUhid" class="formUhid floatLeft signup" action="JavaScript:console.log('TODO: Define Form Action');">
+				<fieldset class="borderFormPartition top signup">
+				<h3 class="physician header block uhidGray signup" src="../images/medScapeLogo.png">Create WebMD Account:</h3>
+					<label>First Name:</label>			
+					<input id="fNamePhysician" class="physician block center" type="text" placeholder="First Name" />
+					<label>Last Name:</label>			
+					<input id="lNamePhysician" class="physician block center" type="text" placeholder="Last Name" />
+					<label>Email Address:</label>			
+					<input id="emailPhysician" class="physician block center" type="text" placeholder="Email Address" />
+					<label>Password:</label>			
+					<input id="passwordPhysician" class="physician block center" type="password" placeholder="Password" />
+					<label>Confirm Password:</label>			
+					<input id="passwordConfirmPhysician" class="physician block center" type="password" placeholder="Confirm Password" />
+					<label>Birthday:</label>			
+					<div class="dateOfBirthFields">
+						<input id="monthPhysician" class="physician birthday" type="text" placeholder="MM" />
+						<input id="dayPhysician" class="physician birthday" type="text" placeholder="DD" />
+						<input id="yearPhysician" class="physician birthday" type="text" placeholder="YYYY" />
+					</div>
+					<ul class="containerLineItem">
+						<li class="checkBox block floatLeft">
+							<input type="checkbox" class="floatLeft block" checked="checked" value="Remember me" />
+							<label class="signup floatLeft">I accept the WebMD Terms of Use and the</label>
+							<label class="signup floatLeft">WebMD Connect Terms of Use.</label>
+						</li>
+					</ul>
+					<button id="btnSigninPhysician" class="physician webmdBtn btnMedscapeSignin block center" type="submit" value="Create Account">Create Account</button>				
+				</fieldset>
+				<fieldset class="physician borderFormPartition desktop">
+					<div class="btnContainer clear">
+						<label>Already have an account?</label>
+						<button class="webmdBtn webmdBtnConnectLightBlue" type="button" value="Sign in with WebMD">Sign In</button>
+					</div>
+				</fieldset>
+			</form>
+		</section>
+		<footer class="footer clear">
+			<div id="logo" class="logo">
+              <a onclick="sl(this,'','logo');" href="http://www.webmd.com/www/default.htm"><img src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/usability/2012/LBi_Masthead/logo_trans.png" class="logo_rdr" alt="WebMD: Better information. Better health."></a>
+            </div>
+		</footer>		
+	</div>
+	<script type="text/javascript" src="../js/pageStateSignUp.js?version=2.3"></script>
+</body>
+</html>

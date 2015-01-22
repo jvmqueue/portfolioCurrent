@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Static, Private, Privalaged Members via Singlton Pattern</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link type="text/css" rel="stylesheet" href="./styles/main.css" />
+	<script data-main="./scripts/main.js" src="./scripts/require-jquery.js"></script>
+</head>
+
+<body>
+	<form id="frm0" action="" method="" onSubmit="return false;">
+		<fieldset>
+			<!-- We are not using delegates. Listen to button, get the form node relative to button -->
+			<div class="">
+				<label class="labelLeft floatLeft">Book: </label>
+				<!-- TODO: dynamically populated dropdown via XML -->
+				<select id="books0">
+					<option>Select a Book</option>
+					<option>Pro JavaScript Design Patterns</option>
+					<option>Game Theory</option>
+					<option>Fibonacci Numbers</option>
+					<option>The Canvas, HTML5</option>
+					<option>Differentials</option>					
+				</select>
+				<label id="warning">*</label>
+			</div>
+			<div id="bookdata0" class="floatRight">
+				<img id="image0" src="./images/bookDefault.png" />
+				<p><span id="exception0" class="exception"></span></p>
+			</div> <!-- #bookdata0 -->
+			<div>
+				<button id="btn0" type="button">Submit</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+
+</html>

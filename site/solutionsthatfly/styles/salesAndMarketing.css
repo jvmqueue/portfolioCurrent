@@ -1,0 +1,15 @@
+li.bulItem
+{
+list-style-image:url(../images/bulletBwnish.png);
+}
+ul.listLeft
+{
+position:relative;
+left:-60px;
+}
+span.spanInList
+{
+position:relative;
+left:10px;
+white-space:nowrap;
+}

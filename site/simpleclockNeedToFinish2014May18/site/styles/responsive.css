@@ -1,0 +1,51 @@
+#containerPage{
+	
+	width:300px;
+	height:30px;
+	overflow:visible;
+}
+.input-field{
+	width:500px;
+	height:40px;
+	background-color:gray;
+}
+.input-field label{
+	float:left;
+}
+.input-field input, .input-field textarea, .input-field select{
+	display:inliine-block;
+	width:150px;
+	float:right;
+	clear:both;
+}
+.input-field.select-field select{
+	width:156px;
+}
+.text-field label{
+	margin-top:14px;
+}
+.jsClock{
+	background-color:#CCCCCC;
+	display:inline-block;	
+	border:1px solid gray;
+	border-width:1px 0;
+}
+.jsClockInterval{
+	height:32px;
+}
+.jsFirstInterval{
+	border:solid 1px gray;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	border-right:0;
+	height:32px;
+	
+}
+.jsLastInterval{
+	border:solid 1px gray;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	border-left:0;
+	height:32px;
+
+}

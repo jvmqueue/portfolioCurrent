@@ -1,0 +1,661 @@
+/* Begin rule subset borrowed from harmony */
+button,html,input,select,textarea{color:#222}body a:active,body a:focus,body a:hover,body a:link,body a:visited{color:#1295cc;outline:0;text-decoration:none}html{font-size:62.5%}body{font-family:Lato,Arial,sans-serif;font-size:16px;font-size:1.6rem;line-height:1.4}h1{font-size:26px;font-size:2.6rem}h2{font-size:24px;font-size:2.4rem}h3{font-size:22px;font-size:2.2rem}h4{font-size:20px;font-size:2rem}h5{font-size:18px;font-size:1.8rem}h6{font-size:16px;font-size:1.6rem}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}ol,ul{list-style:none;list-style-image:none;margin:0;padding:0}dd{margin:0}input::-ms-clear{display:none}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}form{margin:0;padding:0}fieldset{border:0;margin:0;padding:0}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;*width:13px;*height:13px}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}footer{clear:both;width:100%}footer{background:#fff;line-height:2}
+/* End rule subset borrowed from harmony */
+
+/* Begin Fonts */
+	@import url('http://css.preview.webmd.com/dtmcms/preview/webmd/PageBuilder_Assets/CSS/Site/WebMD_091e9c5e8004a22444.css');
+/* End Fonts */
+.physician.colLeft.signupText.floatLeft.desktop{
+	display:none;
+}
+/* Begin overrides */
+label.exception{
+	cursor:default;
+}
+#s4{
+	width:33%;
+	max-width:100%;
+	margin-left:102px;
+}
+/* End overrides */
+html{
+	font-size:62.5%;
+}
+html div, html p{
+	font-family:Lato,Arial,sans-serif;
+	line-height:1.4;
+}
+h1,h2,h3,h4,h5,h6{
+	color:#88A906;
+	font-family:"Roboto Slab","Palatino Linotype",serif;
+	font-weight:400;	
+}
+h1.uhidGray, h2.uhidGray, h3.uhidGray, h4.uhidGray, h5.uhidGray, h6.uhidGray{
+	color:#222222;
+}
+html body{
+	background:#F5F9FA;
+}
+fieldset{
+	background-color:#FFFFFF;
+}
+#s3{
+	margin:auto;
+
+}
+#chrome{
+	margin:0 auto;
+	min-width:978px;
+	min-height:300px;
+	background:#F5F9FA;
+}
+.webmdBtn.btnMedscapeSignin.uhidBtnDisabled, .signup .physician.webmdBtn.uhidBtnDisabled, .signup .consumer.webmdBtn.uhidBtnDisabled{
+	background-color:#CCC;
+}
+.formUhid input.error, .formUhid input[type=password].error{
+	color:red;
+}
+.formUhid input.error::-webkit-input-placeholder{
+	color:red;
+}
+
+.formUhid input.error:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+    color:#999;
+    opacity:1;
+}
+.formUhid input.error::-moz-placeholder{ /* Mozilla Firefox 19+ */
+    color:#999;
+    opacity:1;
+}
+.formUhid input.error:-ms-input-placeholder{ /* Internet Explorer 10+ */
+    color:#999;
+}
+.exception{
+	color:#F00;
+	width:99%;
+	margin:auto;	
+}
+.webConnectGray { 
+	color: rgb(34, 34, 34); 
+}
+.container { 
+	margin:0 auto 20px auto;
+
+	width:100%;
+}
+.medScapeLogo {
+ width: 135px; 
+ margin: 20px auto;
+}
+.floatLeft{ 
+	float: left;
+}
+.floatRight{ 
+	float:right;
+}
+.colLeft{
+	width:49%;
+}
+.block { 
+	display: block; 
+}
+.center {
+ margin: auto; 
+}
+.containerForm {
+ width: 62%; 
+ min-width: 710px; 
+ height: 300px; 
+}
+.imgHeaderBranding {
+ margin:20px auto 0 auto; 
+ width:12%; 
+}
+.uhidheader{
+    padding:21px 0;
+}
+.uhidheader .text{
+	text-align:center;
+	padding-right:3%;
+	margin:0;
+	font-style:oblique;
+	font-weight:lighter;
+	font-size:4.0em;
+	font-family:sans-serif;
+	letter-spacing:0;
+}
+
+
+.formCaption { 
+	margin: 10px auto; 
+	text-align: center; 
+}
+.modelException{
+    color:#F00;
+    display:block;
+    margin:0 0 0 30%;
+}
+.hide{
+    display:none;
+}
+.clear {
+ clear: both; 
+}
+.clearRight {
+ clear: right; 
+}
+.checkBox input[type="checkbox"] {
+	font-size: 2em;
+	margin-top: 4px; 
+	margin-right:1%;
+	margin-bottom: 0.5em;
+	width:9px; 
+	height:9px; 
+	border:solid 1px #CCC;
+	border-radius: 5px;	
+	border-width: 1px;	
+	padding:0;
+	height:auto;
+	width:auto;	 	 
+	display:inline-block;
+}
+.containerLineItem { 
+	font-size:0.8em;
+	margin:15px auto 54px auto; 
+	width:83%; 
+	min-width:130px; 
+	text-align:left;
+}
+.signInRememberMeContainer .containerLineItem{ 
+	margin:1.5em 0 0 0; 
+}
+.containerLineItem li{ 
+	display:inline-block;
+	margin-left:3%;
+	padding-left:4%;
+	width:60%;  
+	text-align:left;
+}
+.signInRememberMeContainer .containerLineItem li{ 
+	margin-left:0;
+	padding-left:0;
+}
+.checkBox label {
+ width: 32%; 
+ display: inline-block; 
+ white-space: nowrap; 
+ padding:0 0 0 3px; 
+}
+.containerForm .formUhid {
+ margin-left: 1em; 
+ width:49.2%; 
+ height:417px;
+ min-width: 200px; 
+}
+.webmdBtn.btnMedscapeSignin { 
+	margin-top:0; 
+	width:75%; 
+	color:#FFF; 
+	background-color: rgb(13, 73, 109); 
+}
+.signInRememberMeContainer{
+	padding:0 13%;
+	width:30%;
+}
+.formUhid.signup .signInRememberMeContainer label{
+	display:inline-block;
+	margin:0.8em 0 0 0.5em;
+}
+.signInRememberMeContainer .signInChkBox{
+	width:13px;
+}
+.signInForgotPasswordContainer{
+	margin:15px auto auto auto;
+	width:75%;
+	height:50px;	
+}
+.signInForgotPasswordContainer .floatLeft{
+	width:45%;
+	height:40px;
+}
+.signInForgotPasswordContainer .checkBoxRm{
+	display:inline-block;
+	margin-right:1%;
+	padding:0;
+	height:auto;
+	width:auto;
+}
+.signInForgotPasswordContainer .floatRight{
+	font-size:2.5em;
+	width:51%;
+	height:40px;
+}
+
+.signInForgotPasswordContainer .floatRight ul{
+	width:100%;
+}
+.signInForgotPasswordContainer .floatRight ul li{
+	width:144px;
+}
+
+.signInForgotPasswordContainer .listForgotPass{
+	padding-left:5%; 
+	width:98%;
+}
+.physician.borderFormPartition.desktop .btnContainer {
+	padding-right:0; 
+}
+.signInForgotPasswordContainer button.webmdBtnConnectLightBlue{
+	margin-left:40px;
+}
+
+.webmdBtn.btnMedscapeSignin.consumer{ 
+	color:#FFF; 
+	background-color:#F67F00; 
+}
+.signInForgotPasswordContainer section.floatLeft .rememberMe{
+	margin-left:1%;
+}
+.signup .physician.borderFormPartition .floatLeft{
+	width:47%;
+}
+.signup .physician.borderFormPartition h6{
+	font-size:2.3em;
+	margin:26px 0 0 1;
+	position:relative;
+	top:34px;
+	left:16%;
+}
+.formUhid input{
+	color:#000;
+	font-size:2em;
+	margin-bottom:0.5em; 
+	border-radius:5px;
+	border-width:1px; 
+	padding:0 0 0 15px; 
+	width:70%; 
+	height:42px; 
+}
+.formUhid .borderFormPartition {
+ 	margin-top:0;
+}
+.borderFormPartition.top {
+ 
+ padding-bottom:0.85em;
+}
+.formUhid .btnContainer {
+ margin: auto auto auto 12%; 
+ width:98%; 
+ min-width:384px;
+}
+.webmdBtn{
+	border:none;
+	color:#fff;
+	background:#f67f00;
+	padding:1em 2em;
+	border-radius:.5em;
+	margin:1em 0;
+	height:4em;
+	font-size:.8em
+}
+.webmdBtnConnectLightBlue{ 
+	background-color:#1295CC;
+}
+.webmdOrange, .webmdBtn.webmdOrange{
+	background-color:#F67F00;
+}
+.webmdBtn.webmdBtnConnectLightBlue { 
+	display: inline-block; 
+	margin-right:1.7%;
+	margin-left:1.7%;
+	width: 38%; 
+	min-width:155px; 
+	text-align:center;
+}
+.webmdBtn.webmdBtnConnectLightBlue span{ 
+	display:inline-block;
+	margin:0 1em 0 0;
+}
+
+
+
+footer{
+ background:#F5F9FA
+}
+div .pane footer{ /* left bottom WebMD logo */
+	position:relative;
+	left:1%;
+	width:100%;	
+}
+div .pane footer.register{ /* left bottom WebMD logo for register */
+	top:100px;
+}
+.footer .logo img{
+ margin:0; 
+ padding-top: 60px; 
+ width:97px;
+}
+.footerRight{
+	padding-top:55px;
+}
+.floatRight .footerRightText{
+	display:inline;
+}
+.register .footerRight{
+	margin-right:8%;
+}
+
+
+ .colLeftText ul li{
+  	margin:0.8em auto;
+ 	list-style-position:outside;
+ 	margin-left:1.3em;
+ 	list-style-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3MDIxNzhGMDREQTQxMUU0QUMwNzlGRURGMDNDOEU3MCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3MDIxNzhGMTREQTQxMUU0QUMwNzlGRURGMDNDOEU3MCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjdBNEYwRkY1NERBMjExRTRBQzA3OUZFREYwM0M4RTcwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjdBNEYwRkY2NERBMjExRTRBQzA3OUZFREYwM0M4RTcwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+bDWsgwAAAHhJREFUeNpi/Pfv7+v3t0/fmc7HoaCvHMnHLc548+G2Q5fLGBj+MzAw/v//38N0PrNDwJ8fv179ZQACRkYGhnef7zP9Z2L6/5+RGcj/z/CPkeEfwz8mZQkPoC4mBiYmRiDJoCLlxaIu6wPUc+fZNqA2ZUkvIBcgwAD43Sj5HmlaMgAAAABJRU5ErkJggg%3D%3D);
+ }
+
+ /* ***** Begin SignIn Modals for Account Locked ***** */
+ .modal{
+ 	border:solid #DDD 1px;
+ 	border-radius:5px;
+ 	position:absolute;
+ 	top:20%;
+ 	left:50%;
+ 	z-index:1000;
+ }
+  .modal .topRightCloseButton{
+	color:#FFF;
+	background-color:#CCC;
+	display:inline-block;
+	float:right;
+	margin:6px 6px 0 0;
+	border-radius:18px;
+	padding:3px 10px 11px 6px;
+	width:.2em;
+	height:.2em;
+	font-weight:bold;
+ }
+ .uhidModalAccountLocked.modal{
+ 	width:340px;
+ 	height:180px;
+ 	background-color:#FFF;
+ }
+
+  .uhidModalAccountLocked.modal .containerMessageModal{
+	font-size:2em;
+	text-align:left;
+	margin:0 0 0 11%;
+	width:60%;
+	height:200px;
+	position:relative;
+	top:40px;
+	left:2%;
+	word-spacing:4px;
+ }
+   .uhidModalAccountLocked.modal .containerMessageModal .textMessageModal{
+	margin:0 0 10px 0;
+ }
+ .uhidModalAccountLocked.modal .containerMessageModal .webmdBtn{
+ 	width:40%;
+ }
+ /* ***** End SignIn Modals for Account Locked ***** */
+
+
+/* ***** Begin Consumer page state ***** */
+.jsFormConsumer .borderFormPartition.top{
+	padding-bottom:3.0em;
+}
+.physician.hide{
+	display: none;
+}
+
+
+.consumer.show{
+	display:block;
+}
+.consumer.hide{
+	display:none;
+}
+.imgLeft{
+ width:99%;
+ min-width: 200px;
+ height:100%;
+ background-image:url(../../../../../consumer_assets/site_images/uhid/images/webConnectPhysicianLeft.png); 
+ background-repeat: no-repeat;
+}
+.imgPhysician{
+ 	background-image:url(../../../../../consumer_assets/site_images/uhid/images/webConnectPhysicianLeft.png);
+}
+.imgConsumer{
+	background-image:url(../../../../../consumer_assets/site_images/uhid/images/images/webConnectConsumerLeft.png);
+}
+
+/* ***** End Consumer page state ***** */
+
+
+/* ***** Begin Tweeks for Physician Sign-up page ***** */
+.containerMobile{
+	display:none;
+}
+.checkBox label.signup {
+ width:80%; 
+}
+.formUhid input.birthday{
+ width:26.5%; 
+}
+.signup .imgPhysician, .signup .imgConsumer{
+	width:377px;
+	height:417px;
+}
+.colLeftText ul{
+	color:#888;
+	font-size:1.9em;	
+	margin-left:0;
+}
+.colLeftText h4{
+	font-family:sans-serif;
+}
+.formUhid.signup label{
+	font-size:1.7em;
+	font-weight:bold;
+	margin-left:13%;
+}
+.formUhid.signup label.uhidGray{
+	font-size:2em;
+}
+.dateOfBirthFields{
+	margin-left:13%;
+}
+.physician.header.signup{
+	margin:30px auto;
+	width:44%;
+	min-width:90px;
+	font-family:sans-serif;
+	font-weight:lighter;
+	text-align:center;
+}
+.register .physician.header.signup{
+	margin:30px auto;
+	width:80%;
+	min-width:120px;
+}
+.physician.signup .colLeftText{
+	background-color:#FFFFFF;
+	margin:auto;
+}
+.physician.signup .colLeftText h4{
+	margin:1.5em auto 1.0em auto;
+}
+.physician.signup .colLeftText li{
+	margin:0.8em auto;
+	list-style-position:outside;
+	margin-left:1.3em;
+	list-style-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3MDIxNzhGMDREQTQxMUU0QUMwNzlGRURGMDNDOEU3MCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3MDIxNzhGMTREQTQxMUU0QUMwNzlGRURGMDNDOEU3MCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjdBNEYwRkY1NERBMjExRTRBQzA3OUZFREYwM0M4RTcwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjdBNEYwRkY2NERBMjExRTRBQzA3OUZFREYwM0M4RTcwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+bDWsgwAAAHhJREFUeNpi/Pfv7+v3t0/fmc7HoaCvHMnHLc548+G2Q5fLGBj+MzAw/v//38N0PrNDwJ8fv179ZQACRkYGhnef7zP9Z2L6/5+RGcj/z/CPkeEfwz8mZQkPoC4mBiYmRiDJoCLlxaIu6wPUc+fZNqA2ZUkvIBcgwAD43Sj5HmlaMgAAAABJRU5ErkJggg%3D%3D);
+}
+.physician.signup .colLeftText li:before{
+    color:#88A906;
+}
+.physician.colLeft.signupText.floatLeft.desktop{
+	position:relative;
+	top:0;
+	margin:0;
+	padding:24px 10% 0 10%;
+	width:304px;
+	display:block;	
+	background-color:#FFF;
+}
+
+.checkBox label.signup{
+	margin-left:3%;
+}
+.signup .physician.webmdBtn{
+	margin-top:0;
+	margin:0 auto 0 auto;
+	padding-top:1.0em;
+	text-align:center;
+}
+
+
+.formUhid.signup .btnContainer label{
+	font-weight:normal;
+	margin:0;
+}
+.signup .physician.webmdBtn, .webmdBtn.webmdBtnConnectLightBlue{
+	font-size:1.7em;
+	margin:0 0 0 16%;
+}
+.register .signup .physician.webmdBtn, .webmdBtn.webmdBtnConnectLightBlue{
+	font-size:1.7em;
+	margin:0 0 20px 16%;
+}
+.withYourWebMdAccount .physician.webmdBtn, .webmdBtn.webmdBtnConnectLightBlue{
+	margin:auto;
+}
+.register .withYourWebMdAccount .physician.webmdBtn, .webmdBtn.webmdBtnConnectLightBlue{
+	margin:0 0 0 10%;
+}
+.signup .physician .btnContainer{
+	padding-right:2.0em;
+}
+.signup .borderFormPartition.signup{
+	margin-bottom:0;
+	padding-bottom:3.0em;
+}
+/* ***** End Tweeks for Physician Sign-up page ***** */
+
+
+/* ***** Begin Mobile for Physician Sign-up ***** */
+
+/* tablet landscape */
+@media screen and (max-width: 980px) {
+	
+}
+/* mobile having landscape mode */
+@media screen and (max-width: 640px){
+	html, body{
+		width:300px;	
+		margin:0 auto;
+		padding:0;		
+	}
+
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		
+	}	
+	fieldset{
+		margin:auto;
+		box-shadow:none;
+	}
+	h3{
+		font-size:1.0em;
+	}
+	.formUhid.signup label{
+		margin-left:0;
+	}
+	.formUhid input{
+		width:100%; 
+	}
+	.dateOfBirthFields{
+		margin-left:0;
+	}
+	.formUhid input.birthday{
+		width:31.5%; 
+	}	
+	.container{ 
+		margin:2px auto;
+		width:95%;
+		min-width:270px; 
+	}
+	.imgHeaderBranding{
+	 margin:20px auto; 
+	 width:54%; 
+	}
+	.containerLineItem { 
+		font-size:0.6em; 
+	}
+	.physician.header.signup{
+		margin:10px auto;
+		width:57%;
+		min-width:185px; 	
+	}
+	.containerForm{
+		width:62%; 
+		min-width:300px; 
+		height:300px; 
+	}
+	.formUhid .btnContainer{
+		margin:auto;
+		width:98%; 
+		min-width:277px;
+	}
+	.formUhid .btnContainer a[type="button"]{
+		float:left;
+		display:inline-block;
+		width:47%;
+		text-align:center;
+		font-size:0.9em;
+		padding-top:0.5em;
+	}
+	.formUhid .btnContainer .webmdBtn{
+		font-size:0.6em;
+		width:45%;
+	}
+	.containerForm .formUhid{
+		margin-left:0;
+		margin:auto; 
+		min-width:150px; 
+	}
+	.formUhid .borderFormPartition {
+		border:0; 
+	}
+	.consumer.borderFormPartition{
+		margin-top:200px;
+		background-color: #FFF;
+		box-shadow: 5px 1px 18px #DDDDDD;
+	}
+	.signup .physician.webmdBtn{
+		background-image:url("");
+		text-align:center;
+	}
+	footer{
+		display:none;
+	}
+	/* Begin Consumer Signin Mobile */		
+	.webmdBtn.btnMedscapeSignin { 
+		width:100%; 
+	}
+	.webmdBtn.webmdBtnConnectLightBlue { 
+		width:17%; 
+		min-width:89px; 
+		background-color: rgb(18, 149, 204); 
+		background-image:url("");
+		text-align:center;
+	}
+}
+/* End Consumer Signin Mobile */
+
+@media screen and (max-width: 480px) {
+
+}
+/* ***** End Mobile for Physician Sign-up ***** */
