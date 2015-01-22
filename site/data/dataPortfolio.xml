@@ -53,7 +53,7 @@
 	</portfolio>	
 	<portfolio ordinal="9" name="Git Repository" backgroundImage="images/logoGitHub.png" backgroundColor="#4183C4">		
 		<topHeader color="#FFFFCC">Resources</topHeader>
-		<iframe src="images/screenCaptureGitRepository.png" http="https://github.com/jvmqueue/jvmQueuePortfolio/blob/master/README.md">&#160;</iframe>
+		<iframe src="images/screenCaptureGitRepositoryA.png" http="https://github.com/jvmqueue">&#160;</iframe>
 		<technique>
 			<li>Repository for site resources</li>
 			<li>Using Git Bash shell to interact with repository</li>
